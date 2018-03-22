@@ -1,5 +1,5 @@
 package CAP25;
-
+//Ilove Youuuuuuuuu
 import java.awt.FlowLayout;
 
 import javax.swing.JButton;
@@ -20,11 +20,11 @@ public class LeiauteFluxo extends JFrame {
 		FlowLayout fl = new FlowLayout(FlowLayout.LEFT, 10, 10);
 		getContentPane().setLayout(fl);
 
-		bt1 = new JButton("Bot„o 1");
-		bt2 = new JButton("Bot„o 2");
-		bt3 = new JButton("Bot„o 3");
-		bt4 = new JButton("Bot„o 4");
-		bt5 = new JButton("Bot„o 5");
+		bt1 = new JButton("Bot√£o 1");
+		bt2 = new JButton("Bot√£o 2");
+		bt3 = new JButton("Bot√£o 3");
+		bt4 = new JButton("Bot√£o 4");
+		bt5 = new JButton("Bot√£o 5");
 
 		getContentPane().add(bt1);
 		getContentPane().add(bt2);
