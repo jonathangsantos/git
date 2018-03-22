@@ -1,5 +1,9 @@
 package CAP25;
 
-public class LeiauteFluxo {
+import javax.swing.JButton;
+import javax.swing.JFrame;
 
+public class LeiauteFluxo extends JFrame {
+	private JButton bt1;
+	
 }
