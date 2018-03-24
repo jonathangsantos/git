@@ -4,9 +4,7 @@ import java.awt.*;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
-import javax.swing.text.html.ImageView;
 
-import javafx.scene.transform.Scale;
 
 import java.awt.Event;
 import java.awt.event.ActionEvent;

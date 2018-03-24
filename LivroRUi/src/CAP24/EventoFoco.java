@@ -14,7 +14,7 @@ import javax.imageio.ImageIO;
 import javax.imageio.ImageReader;
 import javax.swing.*;
 
-import javafx.scene.image.Image;
+
 
 public class EventoFoco extends JFrame implements FocusListener {
 	private JLabel lbFG;
