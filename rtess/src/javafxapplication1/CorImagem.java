@@ -1,8 +1,11 @@
 package javafxapplication1;
 
+import java.awt.List;
 import java.awt.image.BufferedImage;
 import java.awt.image.WritableRaster;
 import java.io.File;
+import java.util.LinkedList;
+
 import javax.imageio.ImageIO;
 import javafx.scene.image.Image;
 
@@ -11,7 +14,7 @@ public class CorImagem {
 	private File arq;
 	private BufferedImage image;
 	private WritableRaster raster;
-    
+    public int a = 3;
 	public CorImagem() {
 	}
 
@@ -79,7 +82,9 @@ public class CorImagem {
 		ImageIO.write(image, "PNG",
 				new File("C:\\Users\\jonathan\\eclipse-workspace\\rtess\\src\\Imagens\\ImagemVerde.png"));
 		Image imagem = new Image("Imagens/ImagemVerde.png");
-
+		
+		
+		
 		return imagem;
 	}
 }

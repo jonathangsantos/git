@@ -1,6 +1,7 @@
 package CAP25;
 //Ilove Youuuuuuuuu
 // também te amo minha vida rsrs
+// minha vida
 import java.awt.FlowLayout;
 
 import javax.swing.JButton;
@@ -37,5 +38,6 @@ public class LeiauteFluxo extends JFrame {
 
 	public static void main(String[] args) {
 		new LeiauteFluxo().setVisible(true);
+		
 	}
 }

@@ -1,6 +1,7 @@
 package javafxapplication1;
 
 import java.net.URL;
+import java.util.LinkedList;
 import java.util.ResourceBundle;
 
 import javax.swing.JOptionPane;
@@ -31,7 +32,7 @@ public class FXMLDocumentController implements Initializable {
 	@FXML
 	private void handleButtonAction(ActionEvent event) {
 		try {
-			CorImagem cor = new CorImagem();
+			CorImagem cor = new CorImagem();		
 			cor.IniciaArq();
 
 			if (event.getSource() == bt1)
